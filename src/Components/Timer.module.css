@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.timerContainer {
+  width: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgba(204, 204, 204, 0.2);
+  position: relative;
+}

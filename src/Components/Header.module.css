@@ -1,0 +1,22 @@
+.container {
+  background-color: #151932;
+  display: flex;
+  list-style: none;
+  color: white;
+  gap: 5px;
+  padding: 20px;
+  border-radius: 50px;
+}
+.container li button {
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.active {
+  background-color: #ff7276 !important;
+}
